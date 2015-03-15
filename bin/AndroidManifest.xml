@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aptitude_mania_proj"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="10" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo1"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.aptitude_mania_proj.startpage"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.example.aptitude_mania_proj.Profit_Loss"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.aptitude_mania_proj.PROFIT_LOSS" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.example.aptitude_mania_proj.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.aptitude_mania_proj.MAINACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.example.aptitude_mania_proj.Time_And_Work"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.aptitude_mania_proj.TIME_AND_WORK" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.example.aptitude_mania_proj.Time_And_Distance"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.aptitude_mania_proj.TIME_AND_DISTANCE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.example.aptitude_mania_proj.Trains"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.aptitude_mania_proj.TRAINS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.example.aptitude_mania_proj.Simple_Interest"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.aptitude_mania_proj.SIMPLE_INTEREST" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.example.aptitude_mania_proj.Compount_Interest"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.aptitude_mania_proj.COMPOUNT_INTEREST" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.example.aptitude_mania_proj.Percentage"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.aptitude_mania_proj.PERCENTAGE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    
+    
+         <activity
+            android:name="com.example.aptitude_mania_proj.itemlist"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.aptitude_mania_proj.ITEMLIST" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.example.aptitude_mania_proj.questionslist"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.aptitude_mania_proj.QUESTIONSLIST" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.example.aptitude_mania_proj.Number_System"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.aptitude_mania_proj.NUMBER_SYSTEM" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.aptitude_mania_proj.Age"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.aptitude_mania_proj.AGE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+           <activity
+            android:name="com.example.aptitude_mania_proj.Number_System_Qus"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.aptitude_mania_proj.NUMBER_SYSTEM_QUS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.example.aptitude_mania_proj.Age_Qus"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.aptitude_mania_proj.AGE_QUS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+          <activity
+            android:name="com.example.aptitude_mania_proj.Time_And_Work_Qus"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.aptitude_mania_proj.TIME_AND_WORK_QUS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.example.aptitude_mania_proj.Time_And_Distance_Qus"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.aptitude_mania_proj.TIME_AND_DISTANCE_QUS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.example.aptitude_mania_proj.Trains_Qus"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.aptitude_mania_proj.TRAINS_QUS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.aptitude_mania_proj.Simple_Interest_Qus"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.aptitude_mania_proj.SIMPLE_INTEREST_QUS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.example.aptitude_mania_proj.Compound_Interest_Qus"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.aptitude_mania_proj.COMPOUND_INTEREST_QUS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.aptitude_mania_proj.Percentage_Qus"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.aptitude_mania_proj.PERCENTAGE_QUS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.example.aptitude_mania_proj.Profit_And_Loss_Qus"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.aptitude_mania_proj.PROFIT_AND_LOSS_QUS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.example.aptitude_mania_proj.company_pattern"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.aptitude_mania_proj.COMPANY_PATTERN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+          <activity
+            android:name="com.example.aptitude_mania_proj.C_DAC"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.aptitude_mania_proj.C_DAC" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.example.aptitude_mania_proj.HONEYWELL"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.aptitude_mania_proj.HONEYWELL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.example.aptitude_mania_proj.About_Us"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.aptitude_mania_proj.ABOUT_US" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.example.aptitude_mania_proj.HCL"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.aptitude_mania_proj.HCL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.example.aptitude_mania_proj.IOCL"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.aptitude_mania_proj.IOCL" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.example.aptitude_mania_proj.WIPRO"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.aptitude_mania_proj.WIPRO" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.example.aptitude_mania_proj.CMC"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.aptitude_mania_proj.CMC" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.example.aptitude_mania_proj.ORACLE"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.aptitude_mania_proj.ORACLE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.example.aptitude_mania_proj.All_India_Exams"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.aptitude_mania_proj.ALL_INDIA_EXAMS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.example.aptitude_mania_proj.Co_Cube"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.aptitude_mania_proj.CO_CUBE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.example.aptitude_mania_proj.Elitmus"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.aptitude_mania_proj.ELITMUS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.example.aptitude_mania_proj.Ibps"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.aptitude_mania_proj.IBPS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name="com.example.aptitude_mania_proj.HCF_LCM"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.aptitude_mania_proj.HCF_LCM" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.example.aptitude_mania_proj.Clock"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.aptitude_mania_proj.CLOCK" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name="com.example.aptitude_mania_proj.Chain_Rule"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.aptitude_mania_proj.CHAIN_RULE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.example.aptitude_mania_proj.Alligation"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.aptitude_mania_proj.ALLIGATION" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.example.aptitude_mania_proj.Stream"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.aptitude_mania_proj.Stream" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.example.aptitude_mania_proj.Partnership"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.aptitude_mania_proj.PARTNERSHIP" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.example.aptitude_mania_proj.TestPaper4"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.aptitude_mania_proj.TESTPAPER4" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.example.aptitude_mania_proj.TestPaper3"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.aptitude_mania_proj.TESTPAPER3" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.example.aptitude_mania_proj.TestPaper2"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.aptitude_mania_proj.TESTPAPER2" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.example.aptitude_mania_proj.TestPaper1"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.aptitude_mania_proj.TESTPAPER1" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.example.aptitude_mania_proj.TestList"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.aptitude_mania_proj.TESTLIST" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.example.aptitude_mania_proj.Test1code"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.aptitude_mania_proj.TEST1CODE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.example.aptitude_mania_proj.Test4code"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.aptitude_mania_proj.TEST4CODE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.example.aptitude_mania_proj.Test3code"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.aptitude_mania_proj.TEST3CODE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+         <activity
+            android:name="com.example.aptitude_mania_proj.Test2code"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.aptitude_mania_proj.TEST2CODE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
